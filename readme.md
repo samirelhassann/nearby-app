@@ -14,6 +14,12 @@
 </p>
 <br>
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/92b563a4-ce22-4740-ae7a-f296a1bf0712" alt="nearby-1" style="width: 25%; margin-right: 2%;">
+  <img src="https://github.com/user-attachments/assets/c82b6a03-0505-4070-9029-bd98c6dc5bc5" alt="nearby-2" style="width: 25%;">
+</p>
+
+
 ##  Table of Contents
 
 - [ Overview](#-overview)
