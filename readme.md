@@ -696,24 +696,25 @@ Install nearby-app using one of the following methods:
 ❯ git clone https://github.com/samirelhassann/nearby-app
 ```
 
-2. Navigate to the project directory:
+2. Navigate to the api directory and install dependencies:
 ```sh
-❯ cd nearby-app
+❯ cd nearby-app/api
 ```
-
-3. Install the project dependencies:
-
-
-**Using `yarn`** &nbsp; [<img align="center" src="" />]()
 
 ```sh
 ❯ yarn install
+or
+❯ npm install
 ```
 
-
-**Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
+3. Navigate to mobile directory and install dependencies:
+```sh
+❯ cd nearby-app/mobile
+```
 
 ```sh
+❯ yarn install
+or
 ❯ npm install
 ```
 
@@ -721,8 +722,22 @@ Install nearby-app using one of the following methods:
 
 
 ###  Usage
-Run nearby-app using the following command:
+First, run the api:
+```sh
+❯ cd nearby-app/api
+```
+```sh
+❯ yarn prisma migrate dev
+```
+```sh
+❯ yarn start
+```
 
+
+Run nearby-app using the following command (another terminal):
+```sh
+❯ cd nearby-app/mobile
+```
 ```sh
 ❯ npx expo start
 ```
